@@ -1,0 +1,5 @@
+fn =  str(input("First name:"))
+ln = str(input('Last name:'))
+pn = int(input('Phone number:'))
+print("Your registered name is",fn,ln,'.')
+print("Your phone number is",pn,'.')

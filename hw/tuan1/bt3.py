@@ -1,0 +1,1 @@
+print('Name\t\t:\tLam\nBirthdate\t:\t12/11/2006')
