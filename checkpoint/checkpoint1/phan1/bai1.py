@@ -1,0 +1,5 @@
+ho = input('Nhập họ: ')
+ten = input('Nhập tên: ')
+print('Last name: '+ho)
+print('Last name: '+ten)
+print('Your full name is',ho,ten)
