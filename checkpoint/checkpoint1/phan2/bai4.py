@@ -4,7 +4,6 @@ n = int(input("Enter the no of the sides of the polygon : "))
 l = int(input("Enter the length of the sides of the polygon : ")) 
 import turtle 
   
-# creating turtle pen 
 t = turtle.Turtle() 
   
 

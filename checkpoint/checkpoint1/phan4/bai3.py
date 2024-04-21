@@ -7,7 +7,7 @@ if usn == '' or pw == '' or email == '' or rppw =='':
 elif len(str(pw))<8:
     print('phai lon hon 8 ky tu')
 elif  pw.isdigit() == True and pw.isalpha() == True:
-    print('phai lon hon 8 ky tu va phai co chu lan so')
+    print('co chu lan so')
 elif rppw != pw:
     print('Passwords not match. Please input again.')
 elif email[len(email)-10:len(email)]!="@gmail.com":
