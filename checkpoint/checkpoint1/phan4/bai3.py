@@ -4,7 +4,7 @@ rppw = input('Repeat password:')
 email = input('input your email: ')
 if usn == '' or pw == '' or email == '' or rppw =='':
     print('nhap du thong tin')
-elif len(str(pw))<8 or pw.isdigit() == True:
+elif len(str(pw))<8 or pw.isdigit() == False and pw.isalpha() == False:
     print('phai lon hon 8 ky tu va phai co chu lan so')
 elif rppw != pw:
     print('Passwords not match. Please input again.')
