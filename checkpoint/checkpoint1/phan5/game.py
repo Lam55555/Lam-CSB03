@@ -3,8 +3,8 @@ diem = 0
 while True:
     diem +=1
     # score = 0
-    a = random.randint(-20,20)
-    b = random.randint(-20,20)
+    a = random.randint(-10,10)
+    b = random.randint(-10,10)
     operator = ['+','-','*','/']
     opval = random.choice(operator)
     if opval == '+':
@@ -68,27 +68,7 @@ while True:
                 break
     if opval == '/':
         while b == 0:
-            a = random.randint(-20,20)
-            b = random.randint(-20,20)
-            n = a/b
-            c = int(n)
-            gacha = random.randint(c-1,c+1)
-            print('kq cua', a,'/',b, 'la',gacha)
-            kq = int(input('1 = true, 0 = False:  '))
-            if kq == 1:
-                if gacha == c:
-                    print('true')
-                    diem +1
-                else:
-                    print('false')
-            else:
-                if gacha != c:
-                    print('true')
-                    diem +1                    
-                else:
-                    print('false')
-                    break
-        else:
+            b = random.randint(-1,1)
             n = a/b
             c = int(n)
             gacha = random.randint(c-1,c+1)
