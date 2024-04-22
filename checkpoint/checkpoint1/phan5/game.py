@@ -3,8 +3,8 @@ diem = 0
 while True:
     diem +=1
     # score = 0
-    a = random.randint(0,5)
-    b = random.randint(0,1)
+    a = random.randint(-20,20)
+    b = random.randint(-20,20)
     operator = ['+','-','*','/']
     opval = random.choice(operator)
     if opval == '+':
@@ -68,8 +68,8 @@ while True:
                 break
     if opval == '/':
         while b == 0:
-            a = random.randint(0,5)
-            b = random.randint(1,2)
+            a = random.randint(-20,20)
+            b = random.randint(-20,20)
             n = a/b
             c = int(n)
             gacha = random.randint(c-1,c+1)
@@ -107,4 +107,4 @@ while True:
                 else:
                     print('false')
                     break
-print("diem cua ban la",diem)
+print("diem cua ban la",diem-1)
