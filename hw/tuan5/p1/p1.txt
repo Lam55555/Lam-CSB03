@@ -1,0 +1,21 @@
+Câu 1. Liệt kê các đặc điểm giống nhau giữa list và tuple.
+-là danh sách lưu trữ dữ liệu một cách tuần tự, có các địa chỉ được gán cho các thành phần của danh sách ( được gọi là index )
+-Vị trí bắt đầu từ [0]
+
+Câu 2. Cho biến employee = ('Jane', 22, 'Engineer'). Làm thế nào để thay đổi giá trị của employee[1] thành 23?
+-employee[1]=23
+
+Câu 3. Cho biến cars = ['Mercedes', 'Rolls Royce', 'Lamborghini', 'Range Rover']. Biểu thức nào sau đây trả về ['Lamborghini', 'Range Rover']?
+-cars[2:]
+
+Câu 4. Câu lệnh nào sau đây khởi tạo list có giá trị [(1, 1), (2, 4), (3, 9), (4, 16)]?
+-arr = [(x, x**2) for x in range(1, 5)]
+
+Câu 5. Cho đoạn code sau.
+    arr = [1, 2, 3, 4]
+    arr.append(5)
+    arr_2 = arr.copy()
+    arr = []
+    
+Chọn giá trị đúng của arr_2 sau khi thực thi đoạn code trên.
+-[1, 2, 3, 4, 5]
