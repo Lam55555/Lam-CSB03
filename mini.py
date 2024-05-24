@@ -1,4 +1,4 @@
-#p1
+# p1
 
 # color = ['blue','red','teal','green']
 # print('color list: \n',*color)
@@ -6,7 +6,7 @@
 # color.append(addcolor)
 # print(color)
 
-#p2.1
+# p2.1
 
 # color = ['blue','red','teal','green']
 # print('color list: \n',*color)
@@ -16,7 +16,7 @@
 # else:
 #     print('nhap so lon hon 0')
 
-#p2.2
+# p2.2
 
 # color = ['blue','red','teal','green']
 # posdel = input('number of position: ')
