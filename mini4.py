@@ -1,10 +1,10 @@
 # 1
-pc = {
-    'HP': 20,
-    'DELL': 50,
-    'MACBOOK': 12,
-    'ASUS': 30,
-}
+# pc = {
+#     'HP': 20,
+#     'DELL': 50,
+#     'MACBOOK': 12,
+#     'ASUS': 30,
+# }
 
 # print(f"Available Macbooks: {pc['MACBOOK']}")
 # name = input('Input a brand: ')
@@ -37,12 +37,12 @@ pc = {
 
 # 3
 
-pcprice = {
-    'HP':600,
-    'DELL':650,
-    'MACBOOK':1200,
-    'ASUS':400
-}
+# pcprice = {
+#     'HP':600,
+#     'DELL':650,
+#     'MACBOOK':1200,
+#     'ASUS':400
+# }
 
 # print(f"Price of Asus: {pcprice['ASUS']}")
 # price = input('Input a brand: ')
@@ -108,8 +108,73 @@ skill = {
       {'Name': 'Strong Kick', 'Minimum level': 4, 'Damage': 9, 'Hit rate': 0.2}
   ]
 }
-#7
-for i in skill:
-    for y in skill[i]:
-        print(f"{i}: {y['Name']}")
+# #7
+# for i in skill:
+#     for y in skill[i]:
+#         print(f"{i}: {y['Name']}")
+
+
+
+
+
+
+
+
+
+
+
+
+# Src: Tài
+#8
+# import random
+# myChar = {
+#     "Name": "Light",
+#     "Age": 17,
+#     "Strength": 8,
+#     "Defense": 10,
+#     "HP": 100,
+#     "Backpack": [
+#         "Shield", 
+#         "Bread Loaf"
+#         ],
+#     "Gold": 100,
+#     "Level": 2
+# }
+# mySkills = {
+#     "Skill 1": {
+#         "Index" : 1,
+#         "Name": "Tackle", 
+#         "Minimum level": 1,
+#         "Damage": 5,
+#         "Hit rate": 0.3
+#         },
+#     "Skill 2": {
+#         "Index" : 2,
+#         "Name": "Quick Attack",
+#         "Minimum level": 2,
+#         "Damage": 3,
+#         "Hit rate": 0.5
+#         },
+#     "Skill 3": {
+#         "Index" : 3,
+#         "Name": "Strong Kick",
+#         "Minimum level": 4,
+#         "Damage": 9,
+#         "Hit rate": 0.2
+#         }
+# }
+# #Bai 1:
+# for k,v in mySkills.items():
+#     print("-",k,":",v["Name"])
+# skill_num = int(input("Choose skill by number (1->3): "))
+# for k,v in mySkills.items():
+#     if v["Index"] == skill_num:
+#         print("You chose",v["Name"])
+#         if myChar["Level"] >= v["Minimum level"]:  ##Bai 2:
+#             ran = random.random()         
+#             # print(ran)
+#             if ran < v["Hit rate"]:
+#                 print("Damage:",v["Damage"])
+#             else: print("Attack missed.")
+#         else: print("Cannot deployed. Required level",v["Minimum level"])
 
