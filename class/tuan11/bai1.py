@@ -1,0 +1,6 @@
+f = open('filetxt/tuan9.txt','w')
+# print(f.read())
+f.write('bla bla')
+f.close()
+# f = open('filetxt/tuan9.txt','r')
+# print(f.read())

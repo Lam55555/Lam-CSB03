@@ -6,3 +6,5 @@ print(curr)
 
 print(curr.strftime('Today is %d/%m/%y'))
 print(curr.strftime('Time right now: %H:%M:%S'))
+
+print(type(curr.strftime('Today is %d/%m/%y')))
